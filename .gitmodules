@@ -1,0 +1,3 @@
+[submodule "GSTest-SubmoduleClass"]
+	path = GSTest-SubmoduleClass
+	url = https://github.com/Arzzet/GSTest-SubmoduleClass.git
