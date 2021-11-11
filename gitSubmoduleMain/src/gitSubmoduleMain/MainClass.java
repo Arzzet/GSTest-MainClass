@@ -1,5 +1,7 @@
 package gitSubmoduleMain;
 
+import submodule.SubmoduleTest;
+
 public class MainClass {
 	private String name;
 	private int number;
@@ -34,6 +36,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		MainClass main = new MainClass("Iwo", 99);
 		System.out.println(main.getNumber());
+		SubmoduleTest st = new SubmoduleTest();
+		System.out.println(st.suma(10, 10)); 
 	}
 
 }
